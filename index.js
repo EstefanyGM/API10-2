@@ -7,7 +7,7 @@ const{mongoose} = require('./database');
 const app = express();
 
 //Puerto
-app.set('port', process.env.Port || 3000);
+app.set('port', process.env.PORT || 3000);
 
 //Middelware
 app.use(morgan('dev'));
